@@ -1,0 +1,27 @@
+<div class="container p-3">
+  <div class="row">
+    <div class="col-md-auto mx-auto">
+      <div class="card text-center" style="margin-top: 20%">
+        <div class="card-body m-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+          <h3 class="mb-2">Bienvenido </h3>
+          <h4 class="fst-italic">{{user.fullname}}</h4>
+          <h5> {{user.number}}</h5>
+          <h5 class="fst-italic"> {{user.career}} </h5>
+          <div>
+            <a href="/contacts/list" class="btn btn-primary mb-1 m-3">
+              Ver Contactos
+            </a>
+          </div>
+          <div>
+            <a href="/contacts/new" class="btn btn-primary mb-1 m-3">
+             Añadir Contacto
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
